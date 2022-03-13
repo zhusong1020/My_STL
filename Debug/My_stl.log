@@ -1,2 +1,76 @@
-﻿  Vector.cpp
-  My_stl.vcxproj -> F:\VS_projects\My_stl\Debug\My_stl.exe
+﻿  main.cpp
+F:\My_STL\Vector.h(41): warning C4661: “Vector<int>::Vector(Vector<int> &&) noexcept”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(10): message : 参见“Vector<int>::Vector”的声明
+F:\My_STL\Vector.h(41): warning C4661: “Vector<int>::Vector(const Vector<int> &)”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(9): message : 参见“Vector<int>::Vector”的声明
+F:\My_STL\Vector.h(41): warning C4661: “Vector<int>::Vector(int)”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(8): message : 参见“Vector<int>::Vector”的声明
+F:\My_STL\Vector.h(41): warning C4661: “Vector<int> &Vector<int>::operator =(Vector<int> &&) noexcept”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(12): message : 参见“Vector<int>::operator =”的声明
+F:\My_STL\Vector.h(41): warning C4661: “Vector<int> &Vector<int>::operator =(const Vector<int> &)”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(11): message : 参见“Vector<int>::operator =”的声明
+F:\My_STL\Vector.h(41): warning C4661: “void Vector<int>::resize(int)”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(13): message : 参见“Vector<int>::resize”的声明
+F:\My_STL\Vector.h(41): warning C4661: “void Vector<int>::reserve(int)”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(14): message : 参见“Vector<int>::reserve”的声明
+F:\My_STL\Vector.h(41): warning C4661: “const Object &Vector<Object>::operator [](int) const”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Object=int
+          ]
+F:\My_STL\Vector.h(16): message : 参见“Vector<int>::operator []”的声明
+F:\My_STL\Vector.h(41): warning C4661: “Object &Vector<Object>::operator [](int)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Object=int
+          ]
+F:\My_STL\Vector.h(15): message : 参见“Vector<int>::operator []”的声明
+F:\My_STL\Vector.h(41): warning C4661: “bool Vector<int>::empty(void) const”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(17): message : 参见“Vector<int>::empty”的声明
+F:\My_STL\Vector.h(41): warning C4661: “int Vector<int>::size(void) const”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(18): message : 参见“Vector<int>::size”的声明
+F:\My_STL\Vector.h(41): warning C4661: “int Vector<int>::capacity(void) const”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(19): message : 参见“Vector<int>::capacity”的声明
+F:\My_STL\Vector.h(41): warning C4661: “void Vector<int>::push_back(const Object &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Object=int
+          ]
+F:\My_STL\Vector.h(20): message : 参见“Vector<int>::push_back”的声明
+F:\My_STL\Vector.h(41): warning C4661: “void Vector<int>::pop_back(void)”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(21): message : 参见“Vector<int>::pop_back”的声明
+F:\My_STL\Vector.h(41): warning C4661: “const Object &Vector<Object>::back(void) const”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Object=int
+          ]
+F:\My_STL\Vector.h(22): message : 参见“Vector<int>::back”的声明
+F:\My_STL\Vector.h(41): warning C4661: “Vector<int>::~Vector(void)”: 没有为显式模板实例化请求提供适当的定义
+F:\My_STL\Vector.h(23): message : 参见“Vector<int>::~Vector”的声明
+F:\My_STL\Vector.h(41): warning C4661: “const Object *Vector<Object>::begin(void) const”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Object=int
+          ]
+F:\My_STL\Vector.h(28): message : 参见“Vector<int>::begin”的声明
+F:\My_STL\Vector.h(41): warning C4661: “Object *Vector<Object>::begin(void)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Object=int
+          ]
+F:\My_STL\Vector.h(26): message : 参见“Vector<int>::begin”的声明
+F:\My_STL\Vector.h(41): warning C4661: “const Object *Vector<Object>::end(void) const”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Object=int
+          ]
+F:\My_STL\Vector.h(32): message : 参见“Vector<int>::end”的声明
+F:\My_STL\Vector.h(41): warning C4661: “Object *Vector<Object>::end(void)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Object=int
+          ]
+F:\My_STL\Vector.h(30): message : 参见“Vector<int>::end”的声明
+  Vector.cpp
+  正在生成代码...
+  My_stl.vcxproj -> F:\My_STL\Debug\My_stl.exe
